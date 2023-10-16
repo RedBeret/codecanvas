@@ -1,3 +1,34 @@
 body {
-    background: blue;
+    background-color: #F5EEC8;
+    color: #555843;
+}
+
+.navbar {
+    background-color: #A7D397;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #F5EEC8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #555843;
+}
+
+p {
+    color: #D0D4CA;
+}
+
+a {
+    color: #A7D397;
+}
+
+a:hover {
+    color: #D0D4CA;
 }
