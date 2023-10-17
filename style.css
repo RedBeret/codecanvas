@@ -32,3 +32,7 @@ a {
 a:hover {
     color: #D0D4CA;
 }
+
+footer .nav-link,
+footer p {
+    color: #555843;
