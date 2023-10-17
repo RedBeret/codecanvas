@@ -16,3 +16,18 @@ cards.forEach(card => {
     });
 });
 
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+const list = document.getElementById('hover-list');
+
+list.addEventListener('mouseover', function (event) {
+    if (event.target.tagName === 'LI') {
+        event.target.style.color = 'orange';
+    }
+});
+
+list.addEventListener('mouseout', function (event) {
+    if (event.target.tagName === 'LI') {
+        event.target.style.color = '';
+    }
+});

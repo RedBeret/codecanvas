@@ -33,6 +33,10 @@ a:hover {
     color: #D0D4CA;
 }
 
+#hover-list {
+    list-style-type: none;
+}
+
 footer .nav-link,
 footer p {
     color: #555843;
